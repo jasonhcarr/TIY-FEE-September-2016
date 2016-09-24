@@ -1,0 +1,18 @@
+nav {
+  .main-menu {
+    background: black;
+    color: white;
+    height: 30px;
+
+    li {
+      @include borders;
+      float: left;
+      padding: 10px;
+
+      &.active {
+        background: yellow;
+        @include borders(5px, blue);
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+header {
+  padding: 20px; }
+  @media only screen and (max-width: 450px) {
+    header {
+      background: black; } }
+  @media only screen and (min-width: 1200px) {
+    header {
+      background: red; } }
+  header h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold; }
+    header h2 span {
+      font-weight: normal;
+      text-decoration: underline; }
+
+nav .main-menu {
+  background: black;
+  color: white;
+  height: 30px; }
+  nav .main-menu li {
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    float: left;
+    padding: 10px; }
+    nav .main-menu li.active {
+      background: yellow;
+      border-left: 5px solid blue;
+      border-right: 5px solid blue;
+      border-bottom: 5px solid blue; }
+
+/*# sourceMappingURL=style.css.map */

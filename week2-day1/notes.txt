@@ -1,0 +1,39 @@
+Standup
+
+Class Project:
+	- Basic blog layout/Users/daniel.yuschick/Documents/Classes/2016-FEE-September/Classwork/week2-day1/notes.txt
+	- Include a couple floated divs
+	- Show/Hide of navigation
+	- Enforce and possibly introduce more accessibility practices
+	- HTML5 Codesniffer, HTML Validator
+
+	
+Accessibility Resources
+	- http://a11yproject.com/
+	- https://html5.validator.nu/
+	- http://squizlabs.github.io/HTML_CodeSniffer/
+
+
+Responsive Design
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	- Introduce the concepts of responsive
+	- Introduce meta tags for scaling
+	- Introduce CSS resets
+		- David Walsh Reset
+		- Eric Meyer Reset
+	- Introduce more CSS units - %, em, and vh/vw
+	- Media queries, focus on max-width
+	- Dev tools device toolbar
+	- Mention Bootstrap (ideally learn this to have it used in class)
+	- Mobile first strategy
+
+Discuss Homework
+
+
+Demonstrate vh/vw units
+Run HTML validator and CodeSniffer
+Enforce accessibility best practices
+Create repo to send to validator
+

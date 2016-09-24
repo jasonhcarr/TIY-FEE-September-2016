@@ -1,0 +1,94 @@
+.viewport-test {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: red;
+  z-index: 2;
+
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+
+}
+
+ul {
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.item-container {
+  margin: 0 4% 25px 0;
+  position: relative;
+  transition: all 2.5s ease;
+  width: 22%;
+}
+
+.item-container:last-child {
+  margin-right: 0;
+}
+
+.button {
+  background: orange;
+  border: 1px solid #000;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.top-container img {
+  width: 100%;
+}
+
+.bottom-list {
+  height: 30px;
+  overflow: visible;
+}
+
+.bottom-list li {
+  background: darkblue;
+  border: 1px solid #000;
+  color: white;
+  cursor: pointer;
+  padding: 5px 0;
+  text-align: center;
+  transition: transform 1s ease;
+  width: 20%;
+}
+
+.bottom-list li:hover {
+  transform: translate(0,-10px) scale(1.2);
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .item-container {
+    margin-right: 5%;
+    width: 30%;
+  }
+
+  .item-container:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .item-container:last-child {
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .item-container {
+    margin-right: 10%;
+    width: 45%;
+  }
+
+  .item-container:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .item-container:last-child {
+    /*margin-right: 5%;*/
+  }
+}

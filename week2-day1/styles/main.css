@@ -1,0 +1,149 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+header {
+    background: url('../images/houston-skyline.jpg') no-repeat center;
+    background-size: cover;
+    height: 250px;
+}
+
+.mobile-nav span {
+  display: none;
+}
+
+nav {
+    background: #333;
+    height: 35px;
+    overflow: hidden;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    padding: 5px;
+    color: white;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+aside {
+    padding-top: 50px;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    transition: padding .5s ease;
+}
+
+aside h3 {
+    text-transform: uppercase;
+}
+
+.logo {
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: -50px;
+    transition: all 2s ease;
+    transform: translateX(0);
+    width: 100px;
+}
+
+.main-content {
+    background: green;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.alert-box {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 200px;
+    height: 75px;
+    background: #232323;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-content img {
+        width: 100%;
+    }
+    .alert-box {
+        display: block;
+        position: static;
+        margin-right: 12.5%;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    aside {
+        float: none;
+        width: 100%;
+    }
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile-nav {
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+      color: white;
+    }
+    .mobile-nav span {
+      display: block;
+    }
+    .mobile-nav:hover .main-menu {
+      display: block;
+    }
+    .main-menu {
+      display: none;
+    }
+    main {
+        width: 90%;
+    }
+    .main-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .alert-box {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    main, aside, .main-content {
+        width: 100%;
+    }
+    aside {
+        padding: 50px 10px;
+    }
+    .alert-box {
+        display: none;
+    }
+}
