@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background: red;
+  overflow: hidden;
+}
+
+.container:hover .link-container {
+  height: 35px;
+  opacity: 1;
+}
+
+.container:hover p:first-of-type {
+  opacity: 1;
+  left: 0;
+  transform: rotate(270deg) scale(1.2);
+}
+.container:hover p:last-of-type {
+  right: 0;
+  opacity: 1;
+}
+
+h1 span {
+  font-weight: normal;
+}
+
+.link-container {
+  background: #333;
+  height: 2px;
+  overflow: hidden;
+  transition: height 1s ease-in, opacity 1s ease-out;
+  opacity: 0;
+}
+
+.link-container a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  padding: 10px;
+  background: #fff;
+  position: absolute;
+  transition: all 1s ease-out;
+  transform-origin: bottom right;
+  opacity: 0;
+}
+
+p:first-of-type {
+  left: -500px;
+  transform: rotate(90deg);
+}
+
+p:last-of-type {
+  right: -500px;
+  transition-delay: .15s;
+}
+
+
+
+/*.the-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  background: green;
+  margin: 0 auto;
+  transition: width .5s ease, background 2s ease;
+}
+
+.the-box:hover {
+  width: 150px;
+  height: 75px;
+  border: 10px solid red;
+  background: black;
+}*/
