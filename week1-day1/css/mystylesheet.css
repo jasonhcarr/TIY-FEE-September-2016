@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+p {
+  background-color: grey;
+}
+
+img {
+  padding: 20px;
+}

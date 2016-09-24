@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title></title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<!-- Content goes here -->
+<header>
+  <h1>Lilly's Pizza</h1>
+</header>
+<main>
+  <form action="http://www.google.com" method="post" autocomplete="off">
+    <fieldset>
+      <legend>Customer Information</legend>
+      <label for="customerName">Name</label>
+      <input id="customerName" type="text" placeholder="Your Name" required>
+      <label for="customerAddress">Address</label>
+      <input id="customerAddress" type="text" placeholder="Your Address" required>
+      <label for="customerAddress2">Address 2</label>
+      <input id="customerAddress2" type="text" placeholder="Your Address 2">
+      <label for="customerCity">City</label>
+      <input id="customerCity" type="text" placeholder="City" required>
+      <label for="customerState">State</label>
+      <select id="customerState" disabled>
+        <option value="NC">NC</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Order Details</legend>
+
+      <label for="pizzaSize">Size</label>
+      <select id="pizzaSize">
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+        <option>Family-Size</option>
+      </select>
+
+      <fieldset>
+        <legend>Toppings</legend>
+        <label for="pepperoni">Pepperoni</label>
+        <input name="toppings" id="pepperoni" type="checkbox" value="Pepperoni">
+        <label for="bacon">Bacon</label>
+        <input name="toppings" id="bacon" type="checkbox" value="Bacon">
+        <label for="mushrooms">Mushrooms</label>
+        <input name="toppings" id="mushrooms" type="checkbox" value="Mushrooms">
+    </fieldset>
+
+    </fieldset>
+
+    <label for="specialInstructions">Special Instructions</label>
+    <textarea id="specialInstructions" rows="5" cols="50"></textarea>
+
+    <input type="submit" value="Place Order">
+  </form>
+</main>
+</body>
+</html>
