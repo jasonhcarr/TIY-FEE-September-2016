@@ -9,3 +9,4 @@ This repo was created to centralize all code examples built in class during the 
 - [Week 2 - Day 2](week2-day2) - Responsive CSS with Sass
 - [Week 2 - Day 3](week2-day3) - Intro to JavaScript (Comments, Data Types, Variables, Functions, Conditionals, and Operators)
 - [Week 2 - Day 4](week2-day4) - JavaScript Objects, Classes, Constructors, Arrays, and Loops
+- [Week 3 - Day 1](week3-day1) - JavaScript Objects, Math(), Date(), Methods and Scope
