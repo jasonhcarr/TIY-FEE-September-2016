@@ -10,3 +10,4 @@ This repo was created to centralize all code examples built in class during the 
 - [Week 2 - Day 3](week2-day3) - Intro to JavaScript (Comments, Data Types, Variables, Functions, Conditionals, and Operators)
 - [Week 2 - Day 4](week2-day4) - JavaScript Objects, Classes, Constructors, Arrays, and Loops
 - [Week 3 - Day 1](week3-day1) - JavaScript Objects, Math(), Date(), Methods and Scope
+- [Week 3 - Day 2](week3-day2) - JavaScript Arrays, Objects, Looping, and String methods
