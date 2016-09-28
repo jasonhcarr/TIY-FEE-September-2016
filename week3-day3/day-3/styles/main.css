@@ -1,0 +1,27 @@
+@import "https://fonts.googleapis.com/css?family=David+Libre";
+body {
+  background: #eee;
+  font-family: 'David Libre', serif;
+  padding: 25px;
+  text-align: center; }
+
+button {
+  padding: 10px;
+  border: 1px solid #333;
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1.25px; }
+  button:hover {
+    background: #555; }
+
+p {
+  border-bottom: 1px solid #333;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0 0 20px 0; }
+  p:last-child {
+    border: 0; }
+
+/*# sourceMappingURL=main.css.map */
