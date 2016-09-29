@@ -12,3 +12,4 @@ This repo was created to centralize all code examples built in class during the 
 - [Week 3 - Day 1](week3-day1) - JavaScript Objects, Math(), Date(), Methods and Scope
 - [Week 3 - Day 2](week3-day2) - JavaScript Arrays, Objects, Looping, and String methods
 - [Week 3 - Day 3](week3-day3) - JavaScript Try...Catch blocks, Prototype, Constructors, Instances and Inheritance
+- [Week 3 - Day 4](week3-day4) - The DOM and Intro to jQuery
