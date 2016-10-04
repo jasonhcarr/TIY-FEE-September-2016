@@ -14,3 +14,4 @@ This repo was created to centralize all code examples built in class during the 
 - [Week 3 - Day 3](week3-day3) - JavaScript Try...Catch blocks, Prototype, Constructors, Instances and Inheritance
 - [Week 3 - Day 4](week3-day4) - The DOM and Intro to jQuery
 - [Week 4 - Day 1](week4-day1) - Asynchronous JavaScript, XMLHttpRequest(), $.get, $.ajax, and JavaScript Promises.
+- [Week 4 - Day 2](week4-day2) - Asynchronous JavaScript, jQuery $.ajax(), and API calls.
