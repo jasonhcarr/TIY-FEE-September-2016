@@ -15,3 +15,4 @@ This repo was created to centralize all code examples built in class during the 
 - [Week 3 - Day 4](week3-day4) - The DOM and Intro to jQuery
 - [Week 4 - Day 1](week4-day1) - Asynchronous JavaScript, XMLHttpRequest(), $.get, $.ajax, and JavaScript Promises.
 - [Week 4 - Day 2](week4-day2) - Asynchronous JavaScript, jQuery $.ajax(), and API calls.
+- [Week 4 - Day 3](week4-day3) - PUT and DELETE with $.ajax() and introduction to Handlebars templates.
