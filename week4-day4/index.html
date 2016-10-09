@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>NFL - National Fetch League</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Content goes here -->
+    <main class="container">
+        <header>
+            <h1><span>NFL</span> - National Fetch League</h1>
+            <nav>
+                <ul>
+                    <li data-name="abbie">Abbie</li>
+                    <li data-name="ragnar">Ragnar</li>
+                    <li data-name="sterling">Sterling</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content-container">
+            <!-- Handlebars Templates Render Here -->
+        </section>
+    </main>
+
+    <script id="home-template" type="text/x-handlebars-template">
+        <div class="hero"></div>
+        <section class="content">
+            <p>Litter Box lazy dog biscuit aquarium run fast field carrier ferret water fetch toys play twine scratcher run fast scratcher. Swimming feeder drool food slobbery shake feathers swimming Scooby snacks paws scratcher. Toy shake ID tag groom window
+                roll over bird food slobbery ball toy park bird food feeder dog wag tail whiskers leash. Fetch small animals vaccination right paw swimming ball tail vaccine birds mouse polydactyl sit treats lick. Bird Seed scratcher kitty water Rover
+                ferret dog fluffy lazy cat play dog house run fast grooming fluffy lol catz teeth critters stick Rover. Cage house train dog house litter sit gimme five Spike grooming kibble throw Snowball bird kisses pet supplies meow fetch licks roll
+                over maine coon cat. Cat Rover treats scratch pet supplies small animals Fido fetch finch fetch critters lazy dog pet supplies toys pet food tail food barky.</p>
+            <p>Bird Snowball lazy cat twine paws collar gimme five tuxedo slobber stripes walk slobbery chow bark Mittens window. Cockatiel pet food running catch kisses stay. Field string toys polydactyl aquatic string tuxedo grooming speak kitty house
+                train harness feathers. Tigger biscuit head carrier fleas pet dinnertime. Play Dead toy stripes stay behavior aquarium aquatic kisses tail Tigger run fast crate leash fluffy maine coon cat speak tongue kitten. Pet Supplies wet nose shake
+                swimming head slobber whiskers parakeet pet supplies twine park collar groom wagging sit. Dog pet gate bird fetch hamster fetch park kibble cat hamster dog. Bark run toys yawn roll over dog house slobbery.</p>
+            </secrion>
+    </script>
+
+    <script id="dog-template" type="text/x-handlebars-template">
+        <section class="dog-container">
+            <h2>{{name}}</h2>
+            <aside>
+                <img src="{{image}}" alt="{{name}}">
+                <p>Toys:</p>
+                <ul>
+                    {{#each toys}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                <p>Hobbies:</p>
+                <ul>
+                    {{#each hobbies}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                {{#if age}}
+                <p>Age: <span>{{age}}</span></p>
+                {{/if}}
+            </aside>
+            <div class="biography">
+                <p>{{bio}}</p>
+            </div>
+        </section>
+    </script>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/handlebars-v4.0.5.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

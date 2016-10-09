@@ -1,0 +1,21 @@
+nav {
+    ul {
+        float: right;
+        overflow: hidden;
+
+        li {
+            background: $bamboo;
+            float: left;
+            font-size: 18px;
+            padding: $vspace * 2 $hspace;
+            text-align: center;
+            text-transform: uppercase;
+            transition: background .5s ease;
+
+            &:hover, &.active {
+              background: lighten($bamboo, 5%);
+              cursor: pointer;
+            }
+        }
+    }
+}

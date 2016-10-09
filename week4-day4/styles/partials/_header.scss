@@ -1,0 +1,17 @@
+header {
+  background: url(../images/fetch-logo.png) no-repeat $hspace/2 0 $bamboo;
+  background-size: contain;
+  border-bottom: 3px solid $oyster;
+  overflow: hidden;
+  padding: 0 $hspace * 5;
+
+  h1 {
+    cursor: pointer;
+    float: left;
+    font: 28px/58px 'David Libre', serif;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

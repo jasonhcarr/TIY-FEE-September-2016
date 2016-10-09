@@ -1,0 +1,117 @@
+/* Spacing */
+/* Colors */
+@import "https://fonts.googleapis.com/css?family=David+Libre";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  background: #f8f8f8;
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.content-container {
+  margin: 0 auto;
+  width: 1024px; }
+
+p {
+  font: 16px/20px sans-serif;
+  margin: 10px 0; }
+
+header {
+  background: url(../images/fetch-logo.png) no-repeat 7.5px 0 #DC5C05;
+  background-size: contain;
+  border-bottom: 3px solid #978B7D;
+  overflow: hidden;
+  padding: 0 75px; }
+  header h1 {
+    cursor: pointer;
+    float: left;
+    font: 28px/58px 'David Libre', serif; }
+    header h1 span {
+      font-weight: bold; }
+
+nav ul {
+  float: right;
+  overflow: hidden; }
+  nav ul li {
+    background: #DC5C05;
+    float: left;
+    font-size: 18px;
+    padding: 20px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background .5s ease; }
+    nav ul li:hover, nav ul li.active {
+      background: #f56606;
+      cursor: pointer; }
+
+.hero {
+  background: url(../images/fetch-home.jpg) no-repeat center -125px;
+  background-size: cover;
+  height: 400px;
+  margin: 10px 0;
+  width: 100%;
+  overflow: hidden; }
+
+.dog-container h2 {
+  border-bottom: 1px solid #000;
+  font: 27px/45px 'David Libre', serif;
+  font-weight: bold;
+  margin-bottom: 10px; }
+.dog-container aside {
+  float: left;
+  margin-right: 15px;
+  padding-top: 10px;
+  width: 30%; }
+  .dog-container aside img {
+    border: 0;
+    height: auto;
+    width: 100%; }
+  .dog-container aside p {
+    background: #e9e9e9;
+    font-weight: bold;
+    padding: 10px 15px; }
+    .dog-container aside p span {
+      font-weight: normal; }
+  .dog-container aside ul {
+    list-style: none; }
+    .dog-container aside ul li {
+      padding: 5px 0; }
+.dog-container .biography {
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */
