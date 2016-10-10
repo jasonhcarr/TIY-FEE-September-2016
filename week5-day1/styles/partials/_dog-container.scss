@@ -1,0 +1,49 @@
+.dog-container {
+    h2 {
+        border-bottom: 1px solid #000;
+        font: 27px/45px 'David Libre', serif;
+        font-weight: bold;
+        margin-bottom: $vspace;
+    }
+
+    aside {
+        float: left;
+        margin-right: $hspace;
+        padding-top: $vspace;
+        width: 30%;
+
+        img {
+            border: 0;
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    .biography {
+        overflow: hidden;
+    }
+
+    .details-container {
+        clear: both;
+        overflow: hidden;
+        
+        p {
+            background: #e9e9e9;
+            font-weight: bold;
+            padding: $vspace $hspace;
+
+            span {
+                font-weight: normal;
+            }
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                padding: $vspace/2 0;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
