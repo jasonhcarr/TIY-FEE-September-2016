@@ -130,3 +130,16 @@ $('.person-button').on('click', function() {
     ohSnap.create();
     // console.log(ohSnap);
 });
+
+//
+// var testing = {
+//   check: 'one, two',
+//   testMethod: function() {
+//     console.log('something');
+//   }
+// };
+// testing.testMethod();
+// testing.testMethod = function() {
+//   console.log('newness');
+// };
+// testing.testMethod();

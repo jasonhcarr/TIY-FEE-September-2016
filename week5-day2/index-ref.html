@@ -32,10 +32,10 @@
               </svg>
         </div>
     </script>
-    <script id="person" type="text/x-handlebars-template">
+    <script id="person" type="x-handlebars-template">
         <div class="person-container">
-            <img src="{{image}}" alt="{{get-full-name name}}">
-            <h3 class="full-name">{{name.first}} {{name.last}}</h3>
+            <img src="{{image}}" alt="{{fullName}}">
+            <h3 class="full-name">{{get-full-name name}}</h3>
             <div class="person-details">
                 {{#each details}}
                 <p><span>{{@key}}:</span> {{this}}<p>
@@ -45,6 +45,6 @@
     </script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/handlebars-v4.0.5.js"></script>
-    <script src="js/class.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
