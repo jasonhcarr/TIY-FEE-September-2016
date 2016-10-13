@@ -141,5 +141,22 @@ While we're at it, here's a default setup for a ```.gitignore``` file:
 /node-modules
 ```
 
-##10. The End
-Ending on 9 felt weird.
+##10. Recommended Directory Structure
+It is important to keep your working code separate from your production, live code. To ensure that is cleanly organized and that the above ```Gruntfile.js``` works with your project, follow this recommended directory structure.
+
+```text
+root-project
+   - images/
+   - lib/
+     - js/
+     - styles/
+  - src/
+    - js/
+    - styles/
+  - index.html
+  - .gitignore
+  - Gruntfile.js
+  - package.json
+```
+
+In the above example, the ```src/``` directory will contain **working** files that are then compiled/concatenated/minified into the ```lib/``` directory as our **production** files. ```index.html``` should point to the ```lib/``` directory files.
