@@ -1,13 +1,15 @@
 # NPM and Grunt Setup
 
 ##1. Install Node
-[www.nodejs.com](http://www.nodejs.com)  
+[www.nodejs.com](http://www.nodejs.com)
+
 Node is a JavaScript Runtime which allows JavaScript, which normally only has access to the browser window and whatever is contained, to now run on your machine, giving access to machine details now outside of the browser.
 
 Node, most notably, gives access to the NPM ecosystem - an open source collection of JavaScript library packages.
 
 ##2. Install Grunt-CLI
-[Grunt-CLI on Github](https://github.com/gruntjs/grunt-cli)  
+[Grunt-CLI on Github](https://github.com/gruntjs/grunt-cli)
+
 After installing Node, open the terminal. Here we will install Grunt-CLI, or Command Line Interface. Grunt is an automation task runner that can 'listen' to a project and run a series of tasks anytime a change is saved.
 
 ```text
