@@ -20,3 +20,7 @@ This repo was created to centralize all code examples built in class during the 
 - [Week 5 - Day 1](week5-day1) - Handlebars Templates and Single-Page Behavior, location hash values (Complete)
 - [Week 5 - Day 2](week5-day2) - JavaScript Module Patterns, APIs, and Handlebars
 - [Week 5 - Day 3](week5-day3) - NPM and Grunt Automation - Setting up a base project file
+- [Week 6 - Day 1](week6-day1) - Revisit prototypes and constructors
+- [Week 6 - Day 2](week6-day2) - Testing with Mocha, Chai, and revisiting some jQuery
+- [Week 6 - Day 3](week6-day3) - Using HAML
+- [Week 6 - Day 4](week6-day4) - ES6, Bourbon and CSS Animations
